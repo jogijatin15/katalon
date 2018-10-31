@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Google Search Suite" time="29" tests="1" failures="0" errors="0">
+   <testsuite name="Google Search Suite" tests="1" failures="0" errors="0" time="29" timestamp="2018-10-31 22:17:18" hostname="180808 - 192.168.0.104" id="Test Suites/Google Search Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Development_Avecto\\Katalon Studio Projects\\LEAP POC\\Reports\\Google Search Suite\\20181031_221706"/>
+         <property name="logFiles" value="D:\\Development_Avecto\\Katalon Studio Projects\\LEAP POC\\Reports\\Google Search Suite\\20181031_221706\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="180808 - 192.168.0.104"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 62.0.3202.62"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="8841d366807652eded1a2bb0eb14314f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Google Search" classname="Test Cases/Google Search" status="PASSED">
+         <system-out><![CDATA[2018-10-31 22:17:19 - [TEST_CASE][PASSED] - Test Cases/Google Search: Test Cases/Google Search
+
+2018-10-31 22:17:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-31 22:17:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-31 22:17:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.com/' successfully
+
+2018-10-31 22:17:42 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2018-10-31 22:17:42 - [TEST_STEP][PASSED] - setText: Text 'LEAP POC' is set on object 'Object Repository/Page_Google/input_concat(Start listening f'
+
+2018-10-31 22:17:43 - [MESSAGE][PASSED] - Text 'LEAP POC' is set on object 'Object Repository/Page_Google/input_concat(Start listening f'
+
+2018-10-31 22:17:43 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB' sent to object: 'tempBody'
+
+2018-10-31 22:17:43 - [MESSAGE][WARNING] - Test object id is null
+
+2018-10-31 22:17:43 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-10-31 22:17:43 - [MESSAGE][PASSED] - Keys 'TAB' sent to object: 'tempBody'
+
+2018-10-31 22:17:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Google/input_frog_btnK' is clicked on
+
+2018-10-31 22:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_frog_btnK' is clicked on
+
+2018-10-31 22:17:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_LEAP POC - Google Search/a_Images' is clicked on
+
+2018-10-31 22:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LEAP POC - Google Search/a_Images' is clicked on
+
+2018-10-31 22:17:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-31 22:17:47 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-31 22:17:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-31 22:17:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-31 22:17:18 - [TEST_SUITE][PASSED] - Google Search Suite: Test Cases/Google Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

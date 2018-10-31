@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Google Search Suite" time="53" tests="2" failures="0" errors="0">
+   <testsuite name="Google Search Suite" tests="2" failures="0" errors="0" time="53" timestamp="2018-11-01 00:32:24" hostname="180808 - 192.168.0.104" id="Test Suites/Google Search Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Development_Avecto\\Katalon Studio Projects\\LEAP POC\\Reports\\Google Search Suite\\20181101_003218"/>
+         <property name="logFiles" value="D:\\Development_Avecto\\Katalon Studio Projects\\LEAP POC\\Reports\\Google Search Suite\\20181101_003218\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="180808 - 192.168.0.104"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 62.0.3202.62"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="70e7f93fe15e06f03e764f75d26e3f8e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/BNYM USA" classname="Test Cases/BNYM USA" status="PASSED">
+         <system-out><![CDATA[2018-11-01 00:32:25 - [TEST_CASE][PASSED] - Test Cases/BNYM USA: Test Cases/BNYM USA
+
+2018-11-01 00:32:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-01 00:32:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-01 00:32:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.bnymellon.com/us/en/careers/index.jsp' successfully
+
+2018-11-01 00:32:41 - [MESSAGE][PASSED] - Navigate to 'https://www.bnymellon.com/us/en/careers/index.jsp' successfully
+
+2018-11-01 00:32:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-01 00:32:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-01 00:32:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Who We Are  BNY Mellon/a_WHAT WE DO' is clicked on
+
+2018-11-01 00:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Who We Are  BNY Mellon/a_WHAT WE DO' is clicked on
+
+2018-11-01 00:32:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_What We Do  BNY Mellon/a_WHO WE ARE' is clicked on
+
+2018-11-01 00:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_What We Do  BNY Mellon/a_WHO WE ARE' is clicked on
+
+2018-11-01 00:32:47 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-11-01 00:32:51 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-11-01 00:32:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Who We Are  BNY Mellon/a_WHO WE SERVE' is clicked on
+
+2018-11-01 00:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Who We Are  BNY Mellon/a_WHO WE SERVE' is clicked on
+
+2018-11-01 00:32:53 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-11-01 00:32:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-11-01 00:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Who We Serve/a_OUR THINKING' is clicked on
+
+2018-11-01 00:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Who We Serve/a_OUR THINKING' is clicked on
+
+2018-11-01 00:32:59 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-11-01 00:33:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-11-01 00:33:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-01 00:33:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Google Search" classname="Test Cases/Google Search" status="PASSED">
+         <system-out><![CDATA[2018-11-01 00:33:05 - [TEST_CASE][PASSED] - Test Cases/Google Search: Test Cases/Google Search
+
+2018-11-01 00:33:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-01 00:33:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-01 00:33:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.google.com/' successfully
+
+2018-11-01 00:33:11 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+2018-11-01 00:33:11 - [TEST_STEP][PASSED] - setText: Text 'LEAP POC' is set on object 'Object Repository/Page_Google/input_concat(Start listening f'
+
+2018-11-01 00:33:12 - [MESSAGE][PASSED] - Text 'LEAP POC' is set on object 'Object Repository/Page_Google/input_concat(Start listening f'
+
+2018-11-01 00:33:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB' sent to object: 'tempBody'
+
+2018-11-01 00:33:12 - [MESSAGE][WARNING] - Test object id is null
+
+2018-11-01 00:33:12 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-11-01 00:33:12 - [MESSAGE][PASSED] - Keys 'TAB' sent to object: 'tempBody'
+
+2018-11-01 00:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Google/input_frog_btnK' is clicked on
+
+2018-11-01 00:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_frog_btnK' is clicked on
+
+2018-11-01 00:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_LEAP POC - Google Search/a_Images' is clicked on
+
+2018-11-01 00:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LEAP POC - Google Search/a_Images' is clicked on
+
+2018-11-01 00:33:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-01 00:33:17 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-01 00:33:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-01 00:33:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-01 00:32:24 - [TEST_SUITE][PASSED] - Google Search Suite: Test Cases/Google Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
