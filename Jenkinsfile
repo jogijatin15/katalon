@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-        agent { docker 'katalonstudio/katalon' } 
+        agent { docker 'atin/katalon' } 
       steps {
 		slackSend "Build Started - ${env.JOB_NAME} ${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>)"
 		slackSend "Docker Container Created"
