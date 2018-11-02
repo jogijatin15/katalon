@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Google Search</name>
-   <tag>Smoke</tag>
-   <comment></comment>
-   <testCaseGuid>9a75a3ac-c7a3-41d1-b7da-8e384b80ed31</testCaseGuid>
-</TestCaseEntity>
